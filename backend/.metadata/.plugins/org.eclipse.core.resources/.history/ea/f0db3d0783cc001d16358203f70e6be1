@@ -1,0 +1,5 @@
+package com.jaydeep.edms.repository;
+
+public interface RoleRepository {
+
+}

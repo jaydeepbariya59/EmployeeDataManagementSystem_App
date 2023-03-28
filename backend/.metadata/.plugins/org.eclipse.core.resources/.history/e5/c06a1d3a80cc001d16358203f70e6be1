@@ -1,0 +1,16 @@
+package com.jaydeep.edms.config;
+
+import java.util.Arrays;
+import java.util.List;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import springfox.documentation.spring.web.plugins.Docket;
+
+
+@Configuration
+public class SwaggerConfig {
+	
+	private static final String AUTHORIZATION_HEADER = "Authentication";
+}

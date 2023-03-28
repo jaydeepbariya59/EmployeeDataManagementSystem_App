@@ -1,0 +1,31 @@
+package com.jaydeep.edms.config;
+
+import java.util.Arrays;
+import java.util.List;
+
+import org.springframework.context.annotation.Configuration;
+
+import springfox.documentation.service.AuthorizationScope;
+import springfox.documentation.service.SecurityReference;
+import springfox.documentation.spi.service.contexts.SecurityContext;
+
+
+
+@Configuration
+public class SwaggerConfig {
+	
+	private static final String AUTHORIZATION_HEADER = "Authentication";
+	
+	private List<SecurityContext> securityContext(){
+		return Arrays.asList(SecurityContext.builder().securityReferences(sf().build()));
+	}
+	
+	private List<SecurityReference> sf(){
+		
+		AuthorizationScope authorizationScope = new AuthorizationScope("global", "accessEverything");
+		
+		return Arrays.asList(new SecurityReference("scope", new AuthorizationScope[]{authorizationScope}));
+	}
+	
+	
+}

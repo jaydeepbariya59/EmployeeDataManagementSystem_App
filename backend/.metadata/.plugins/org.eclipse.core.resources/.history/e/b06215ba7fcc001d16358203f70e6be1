@@ -1,0 +1,19 @@
+package com.jaydeep.edms.config;
+
+import java.util.Arrays;
+import java.util.List;
+
+import org.springframework.context.annotation.Configuration;
+
+
+@Configuration
+public class SwaggerConfig {
+	
+	private static final String AUTHORIZATION_HEADER = "Authentication";
+	
+	private List<SecurityContext> securityContexts(){
+		
+		return Arrays.asList()
+		
+	}
+}

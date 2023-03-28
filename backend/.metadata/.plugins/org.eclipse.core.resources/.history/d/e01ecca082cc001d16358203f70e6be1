@@ -1,0 +1,5 @@
+package com.jaydeep.edms.exception;
+
+public class EmployeeException {
+
+}

@@ -1,0 +1,5 @@
+package com.jaydeep.edms.utility;
+
+public class ErrorInfo {
+
+}
