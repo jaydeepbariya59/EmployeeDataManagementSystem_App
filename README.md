@@ -53,13 +53,22 @@ SignUp Page
 ![image](https://user-images.githubusercontent.com/128603103/228172837-1e04a3b6-871c-4363-9d9b-82c653833e78.png)
 
 AllEmployees Page
+![image](https://user-images.githubusercontent.com/128603103/228432304-85692341-df3f-415a-9933-2efee071e738.png)
 
 AddEmployee Page
+![image](https://user-images.githubusercontent.com/128603103/228432347-f6a57c10-3181-46cd-9560-2bf6436dad86.png)
 
 UpdateEmployee Page
+![image](https://user-images.githubusercontent.com/128603103/228432395-a7e4082b-0d6f-4407-9882-bb5b3bf0db79.png)
 
 EmployeeDetail Page
+![image](https://user-images.githubusercontent.com/128603103/228432437-4bd03a94-b410-49b6-9423-92cef1e5fc0b.png)
 
+DeleteEmployee Page
+![image](https://user-images.githubusercontent.com/128603103/228432597-804f2b6a-4a67-48bc-a5bc-e427b205a48b.png)
+
+PrivateRoute Concept
+![image](https://user-images.githubusercontent.com/128603103/228432646-459b887d-53de-4d4d-bd83-f7dc89456dd4.png)
 
 
 
